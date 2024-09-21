@@ -1,8 +1,9 @@
 header {
-    
-   
-    background-color: rgba(192, 89, 5, 0.932);
-    margin: -8px;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: -10px;
+    background: #3983a2;
+    height: 80px;
 }
 header > svg {
     color: aliceblue;
@@ -11,9 +12,11 @@ header > svg {
     display: flex;
     justify-content: left;
     color: aliceblue;
+    float: left;
 }
 #links {
     display: flex;
     justify-content: center;
+    float: left;
 
 }
