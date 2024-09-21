@@ -1,0 +1,19 @@
+header {
+    
+   
+    background-color: rgba(192, 89, 5, 0.932);
+    margin: -8px;
+}
+header > svg {
+    color: aliceblue;
+}
+#logo {
+    display: flex;
+    justify-content: left;
+    color: aliceblue;
+}
+#links {
+    display: flex;
+    justify-content: center;
+
+}
