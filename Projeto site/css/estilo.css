@@ -13,10 +13,17 @@ header > svg {
     justify-content: left;
     color: aliceblue;
     float: left;
+    padding: 30px;
 }
 #links {
     display: flex;
     justify-content: center;
     float: left;
 
+}
+#pesquisar {
+    display: flex;
+    justify-content: left;
+    color: aliceblue;
+    float: right;
 }
