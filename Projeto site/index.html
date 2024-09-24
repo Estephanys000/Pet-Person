@@ -1,41 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
-    <meta charset="UTF-8">
+    <link href="estilo.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8" lang="pt-br">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="David Duarte/Estephany Silva">
     <title>Pet Person</title>
 </head>
+
 <body>
     <header>
-        <div id="logo">
-            <img src="img/logo.png">
-        </div>
-        <div>
-            <nav id="links">
-                <a href="ofertas.html">Ofertas</a>
-                <a href="todososprodutos.html">Todos os produtos</a>
-                <a href="colecoes.html">Coleções</a>
-                <a href="brinquedos.html">Brinquedos</a>
-            </nav>
-        </div>
-        <div id="pesquisar">
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-            <input type="text" name="pesquisar" width="229" height="39" placeholder="Pesquisar">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-bag"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>
+        <div class="nav-bar">
+            <div class="logo">
+                <img src="img/logo.png" width="80" height="80">
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Promoções</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Coleções</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Brinquedos</a></li>
+                     <li class="nav-item"><a href="#" class="nav-link">Fale Conosco</a></li>
+                </ul>
+            </div>
+            
+            <div class="pesquisar">
+                <input type="text" name="pesquisar" width="229" height="39" placeholder="Pesquisar">
+                <i id="search" class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            
+            <div class="icons">
+                <i id="user" class="fa fa-user" aria-hidden="true"></i>
+                <i  id="bag" class="fa fa-shopping-basket" aria-hidden="true"></i>
+                
+                <i id="help" class="fa fa-question-circle-o" aria-hidden="true"></i>
+            </div>
+
+            <div class="login-button">
+                <button><a href="#">Login</a></button>
+            </div>
         </div>
     </header>
-    <article>
-        <div id="banner">
-            <img src="img/banner.jpg">
+    <div class="banner">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        <img src="img/banner.jpg" width="800" height="400";>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+    </div>
 
-        </div>
+    <h1>Coleção primavera dos pets 2024</h1>
 
+    <div class="banner2">
+        
+        <p>CONTEUDO</p>
+        
+    </div>
 
+    <h1>Ofertas de brinquedos</h1>
 
+    <div class="banner3">
+        
+        <p>CONTEUDO</p>
+       
+    </div>
 
-    </article>
 </body>
+
 </html>

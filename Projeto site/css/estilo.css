@@ -1,57 +1,171 @@
 header {
-    font-size: 23px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: -10px;
-    background: #3983a2;
-    height: 100px;
-    box-shadow: 0px 3px 8px #464646; 
-}
-
-header > svg {
-    color: aliceblue;
-}
-
-#logo {
+    margin: -1%;
+    background-color: #3983a2;
+    box-shadow: 0px 3px 10px #464646;
+    padding: 10px;
+  }
+  
+  .nav-bar {
+    align-items: center;
+    font-family: "Itim", cursive;
     display: flex;
-    justify-content: left;
-    color: aliceblue;
-    float: left;
-    width: 50px;
-}
-
-img {
-    width: 50px;
-    padding: 20px;
-}
-
-#links {
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: left;
+    width: 10px;
+    margin: -80px;
+  }
+  
+  .nav-list {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+  }
+  
+  .nav-list ul {
     display: flex;
     justify-content: center;
-    float: left;
+    list-style: none;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
+  
+  .nav-link {
     color: white;
     text-decoration: none;
     font-size: 20px;
     font-weight: 400;
-}
-
-nav a :hover:not(.active) {
-    background-color: #111;
-}
-
-#banner {
-    width: 30px;
-}
-
-nav a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+  }
+  
+  .login-button button {
+    display: flex;
+    margin-right: -100px;
+    margin-top: 5px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+  
+  }
+  
+  .login-button button a {
+  
     text-decoration: none;
-}
-#pesquisar {
+    color: #06012d;
+    font-size: 20px;
+  }
+
+  
+  .pesquisar input {
+  
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: -50px;
+    margin-left: 200px;
+    margin-top: 5px;
     display: flex;
     justify-content: left;
     color: aliceblue;
     float: right;
-}
+    padding: 10px;
+  }
+  .pesquisar i
+  {
+    position: relative;
+    left: 190px;
+    margin-top: 8px;
+    color: white;
+    font-size: 28px;
+  }
+  .icons
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -50px;
+  }
+  #user
+  {
+    margin: 3px;
+    color: white;
+    font-size: 30px;
+  }
+  #bag
+  {
+    margin: 3px;
+    color: white;
+    font-size: 25px;
+  }
+  #help
+  {
+    margin: 3px;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .banner
+  {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .banner img
+  {
+    border: 4px solid #00000000;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .banner i
+  {
+    margin: 1cm;
+    color: #3983a2;
+    font-size: 45px;
+    margin-top: 13%;
+  }
+  .banner2
+  {
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    max-width: 800px;
+    min-height: 400px;
+    background-color: #3982a249;
+    margin-left: 21.5%;
+  }
+  .banner3
+  { overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    max-width: 800px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-left: 21.5%;
+    margin-top: 30px;
+    background-color:#3982a249;
+  }
+  h1
+  {
+    color: black;
+    justify-content: center;
+    font-family: "Itim", cursive;
+    display: flex;
+  }
