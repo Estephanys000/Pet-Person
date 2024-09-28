@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Formulário</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="petstore.html"><img src="photos/logo.png" width="80" height="80"></a>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Promoções</a></li>
+                    <li class="nav-item"><a href="petstore.html" class="nav-link">Coleções</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Brinquedos</a></li>
+                     <li class="nav-item"><a href="form.html" class="nav-link">Fale Conosco</a></li>
+                </ul>
+            </div>
+            
+            <div class="pesquisar">
+                <input type="text" name="pesquisar" width="229" height="39" placeholder="Pesquisar">
+                <i id="search" class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            
+            <div class="icons">
+                <i id="user" class="fa fa-user" aria-hidden="true"></i>
+                <i  id="bag" class="fa fa-shopping-basket" aria-hidden="true"></i>
+                
+                <i id="help" class="fa fa-question-circle-o" aria-hidden="true"></i>
+            </div>
+
+            <div class="login-button">
+                <button><a href="#">Login</a></button>
+            </div>
+        </div>
+    </header>
+
+    <form class="formulario" method="post">
+        <p> Tem alguma dúvida ou reclamação? Preencha o formulário abaixo.</p>
+
+        <div class="field">
+            <label for="nome">Seu nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+        </div>
+
+        <div class="field">
+            <label for="telefone">Seu Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu telefone*">            
+        </div>
+
+        <div class="field">
+            <label for="email">Seu E-mail:</label>
+            <input type="email" id="email" name="E-mail*" required placeholder="Digite seu email*">
+        </div>
+        <div class="field radiobox">
+            <span>Deseja receber nossas novidades?</span>
+            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+        </div>
+        <div class="field">
+            <label for="mensagem">Sua mensagem:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+            </div>
+
+            <input type="submit" name="acao" value="Enviar">
+    </form>
+    <footer>
+        <p>&copy; 2024 - Todos os direitos reservados</p>
+        <p>&copy;David Duarte   &copy;Estephany Silva   &copy;Victor Gargalhone</p>
+        <p>Entre em contato pelo e-mail: sac.petstore@gmail.com</p>
+        <nav>
+            <ul>
+                <li><a href="#">Termos de uso</a></li>
+                <li><a href="#">Política de privacidade</a></li>
+                <li><a href="#">Sobre nós</a></li>
+            </ul>
+        </nav>
+    </footer>
+        </body>
+</html>
+                
+    
+           

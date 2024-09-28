@@ -1,0 +1,83 @@
+form {
+  
+  max-width: 50%;
+  margin-left: 25%;
+}
+
+.quadrado {
+  
+  background-color: #d49f0c;
+  width: 200px;
+  height: 200px;
+}
+
+
+style.formulario {
+  max-width: 40px;
+  display: flex;
+  padding: 30px;
+  border: 2px solid #d49f0c;
+}
+
+.formulario p {
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.field {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.field label,
+.field span {
+  padding-left: 10px;
+  font-size: 1.1em;
+  display: block;
+  width: 100%;
+}
+
+.radiobox label {
+  width: auto;
+  display: inline-block;
+}
+
+input[type=email],
+#telefone,
+#nome,
+textarea {
+  width: 100%;
+  padding-left: 10px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  border: 2.5px solid #d49f0c;
+  outline: none;
+}
+
+input#nao {
+  margin-left: 30px;
+}
+
+textarea {
+  line-height: 20px;
+  padding: 10px;
+  height: 90px;
+  resize: none;
+
+}
+
+input[type=submit] {
+  display: block;
+  background-color: #d49f0c;
+  height: 35px;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  width: 100px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+
+}
+

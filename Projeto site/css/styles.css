@@ -54,15 +54,16 @@ header {
   
   }
   
-  .login-button button a {
-  
+  .login-button button a 
+  {
+     font-family: "Itim", cursive;
     text-decoration: none;
     color: #06012d;
     font-size: 20px;
   }
-
   
-  .pesquisar input {
+  
+  .pesquisar input{
   
     border: none;
     border-top-left-radius: 10px;
@@ -74,7 +75,7 @@ header {
     margin-top: 5px;
     display: flex;
     justify-content: left;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     float: right;
     padding: 10px;
   }
@@ -83,7 +84,7 @@ header {
     position: relative;
     left: 190px;
     margin-top: 8px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 28px;
   }
   .icons
@@ -135,21 +136,40 @@ header {
   }
   .banner2
   {
+    font-family: "Itim", cursive;
     overflow: hidden;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     display: flex;
+    margin: 0 auto;
     justify-content: center;
     margin-top: 30px;
     max-width: 800px;
     min-height: 400px;
     background-color: #3982a249;
-    margin-left: 21.5%;
+  
+  }
+  .banner2 img
+  {
+    border: 4px solid #ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  
+    margin: 4%;
+    display: flex;
+    max-width: 175px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+  
   }
   .banner3
-  { overflow: hidden;
+  { font-family: "Itim", cursive;
+    overflow: hidden;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -158,9 +178,33 @@ header {
     min-height: 400px;
     display: flex;
     justify-content: center;
-    margin-left: 21.5%;
+    margin: 0 auto;
     margin-top: 30px;
     background-color:#3982a249;
+  }
+  .banner3 img
+  {
+    border: 4px solid #ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    position: relative;
+    left: 1cm;
+    margin:4%;
+    max-width: 175px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+  }
+  .banner3 h1
+  {
+   color: rgb(255, 255, 255);
+   font-size: medium;
+   position: relative;
+   top: 290px;
+   left: -10%;
   }
   h1
   {
@@ -168,4 +212,26 @@ header {
     justify-content: center;
     font-family: "Itim", cursive;
     display: flex;
+  }
+  footer 
+  {
+    margin: -1%;
+    background-color: #3983a2;
+    box-shadow: 0px 3px 10px #464646;
+    color: #fff;
+      padding: 10px;
+      text-align: center;
+      margin-top: 50px;
+  }
+  footer p
+  {
+    font-family: "Itim", cursive;
+  }
+  footer li
+  {
+   
+    padding: 2px 10px; 
+    display: inline-block; 
+    color: #000000;
+    font-family: "Itim", cursive;
   }
