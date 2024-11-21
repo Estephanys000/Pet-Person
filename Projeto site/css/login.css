@@ -13,7 +13,7 @@ body {
     background-color: #f2f2f2;
     padding: 20px 0 30px 0;
     margin-top: 5%;
-    align-content: center;
+    
   } 
   
   /* style inputs and link buttons */
@@ -58,7 +58,13 @@ body {
     color: white;
     cursor: pointer;
   }
-  
+  .row{
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
   input[type=submit]:hover {
     background-color: #45a049;
   }
@@ -78,11 +84,14 @@ body {
     display: table;
     clear: both;
   }
-  
+  .form{
+    margin-left: auto;
+    margin-right: auto;
+  }
   /* vertical line */
   .vl {
     position: absolute;
-    left: 60%;
+    left: 50%;
     transform: translate(-50%);
     border: 2px solid #ddd;
     height: 175px;
