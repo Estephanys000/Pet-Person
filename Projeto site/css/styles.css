@@ -10,7 +10,7 @@ header {
     font-family: "Itim", cursive;
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 6rem;
+    padding: 3rem 6rem;
   }
   
   .logo {
