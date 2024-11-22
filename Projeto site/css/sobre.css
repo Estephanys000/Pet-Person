@@ -29,6 +29,10 @@
     text-align: justify;
     margin-bottom: 30%;
     }
+    .subtexto1 a
+{
+margin-bottom: 30%;
+}
 footer 
 {
     padding: 10px;
@@ -38,3 +42,32 @@ footer
   width: 100%;
   box-sizing: border-box;
 } 
+.video
+{
+    position: absolute;
+    margin-left: 50%;
+   min-height: 600px;
+    transform: translate(-50%, -50%);
+    margin-bottom: 500px;
+}
+.video p
+{
+    margin-top: 10%;
+    font-family: "Itim", cursive;
+    font-size: 200%;
+    margin-left: 25%;
+    max-width: 900px;
+    max-height: 100px;
+    text-align: justify;
+    margin-bottom: 2%;
+}
+.video a
+{
+    font-family: "Itim", cursive;
+    font-size: 200%;
+    margin-left: 25%;
+    max-width: 900px;
+    max-height: 100px;
+    text-align: justify;
+    margin-bottom: 100%;
+}
