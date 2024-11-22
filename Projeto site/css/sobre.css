@@ -1,0 +1,40 @@
+.about h1 
+{  
+    font-size: 500%;
+    font-family: "Itim", cursive;
+}
+.about h2
+{ 
+    font-size: 200%;
+    font-family: "Itim", cursive;
+    margin-left: 25%;
+}
+.subtexto
+{
+    font-family: "Itim", cursive;
+    font-size: 150%;
+    margin-left: 25%;
+    max-width: 900px;
+    max-height: 100px;
+    text-align: justify;
+    margin-bottom: 10%;
+    }
+.subtexto1
+{
+    font-family: "Itim", cursive;
+    font-size: 150%;
+    margin-left: 25%;
+    max-width: 900px;
+    max-height: 100px;
+    text-align: justify;
+    margin-bottom: 30%;
+    }
+footer 
+{
+    padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+} 
